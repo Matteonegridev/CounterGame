@@ -42,8 +42,17 @@ document.querySelector(".active").addEventListener("click", function () {
       message("Game Over!!");
     }
   } else if (guess === randomNumber) {
-    if (score > highscore) {
-      highscore = score;
+    let newHighScore;
+    if (score >= 7) {
+      newHighScore = score * 2;
+    } else if (score >= 5) {
+      newHighScore = score * 1.5;
+    } else if (score >= 4) {
+      newHighScore = score;
+    }
+
+    if (newHighScore > highscore) {
+      highscore = newHighScore;
       document.querySelector(".highscore").textContent = highscore;
     }
     document.body.style.backgroundColor = "#60b347";
