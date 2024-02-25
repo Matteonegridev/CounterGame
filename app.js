@@ -1,6 +1,6 @@
 let randomNumber = Math.floor(Math.random() * 20) + 1;
 
-let score = 20;
+let score = 10;
 let highscore = 0;
 
 document.querySelector(".number").textContent = "?";
@@ -55,7 +55,7 @@ document.querySelector(".active").addEventListener("click", function () {
 document.querySelector(".again").addEventListener("click", function () {
   document.body.style.backgroundColor = "#262626";
   message("Start Guessing...");
-  score = 20;
+  score = 10;
   count = 0;
   document.querySelector(".counter").textContent = count;
   document.querySelector(".score").textContent = score;
