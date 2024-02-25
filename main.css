@@ -167,7 +167,7 @@ h1,
   }
   .again {
     position: absolute;
-    left: calc((100vw - 6.6rem) / 2);
+    left: calc((100vw - 108px) / 2);
     top: 20rem;
     margin-block: 2rem;
   }
