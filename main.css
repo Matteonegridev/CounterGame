@@ -153,7 +153,8 @@ h1,
   }
   .again {
     position: absolute;
-    left: calc((100% - 181px) / 2 + 2.5em);
+    left: 50%;
+    transform: translateX(-50%);
     top: 20rem;
     margin-block: 2rem;
   }
