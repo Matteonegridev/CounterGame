@@ -145,31 +145,15 @@ h1,
 @media screen and (max-width: 756px) {
   .number {
     font-size: 5rem;
-    font-weight: 900;
-    color: var(--bg-clr);
-    display: flex;
-    text-align: center;
-    background: var(--tx-clr);
-    justify-content: center;
-    align-items: center;
     width: 7rem;
     margin-top: 1rem;
   }
   .btn {
-    padding: 0.5em 0.9em;
     font-size: 1rem;
-    border: none;
-    outline: none;
-    background-color: var(--tx-clr);
-    color: var(--bg-clr);
-    border-radius: 5px;
-    font-family: var(--font);
-    font-weight: 700;
-    cursor: pointer;
   }
   .again {
     position: absolute;
-    left: calc((100vw - 108px) / 2);
+    left: calc((100% - 181px) / 2 + 2.5em);
     top: 20rem;
     margin-block: 2rem;
   }
