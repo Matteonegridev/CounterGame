@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Guess My Number</title>
+  </head>
+  <body>
+    <header>
+      <div class="scroll">
+        <h1 class="welcome">Welcome!</h1>
+        <h1 class="welcome">Welcome!</h1>
+        <h1 class="welcome">Welcome!</h1>
+        <h1 class="welcome">Welcome!</h1>
+        <h1 class="welcome">Welcome!</h1>
+      </div>
+    </header>
+
+    <main>
+      <div><p class="title">Guess a number between 1 and 20!</p></div>
+      <section class="center">
+        <h1 class="headline">Guess My Number</h1>
+        <button class="btn again">Try Again!</button>
+        <div class="number">?</div>
+      </section>
+      <div class="grid">
+        <section class="left">
+          <p class="start">Start!</p>
+          <button class="btn" id="increment">+</button>
+          <span class="counter plc">0</span>
+          <button class="btn" id="decrement">-</button>
+          <div class="check">
+            <button class="btn active">You Sure?!</button>
+          </div>
+        </section>
+
+        <section class="right">
+          <p class="message">Start Guessing...</p>
+          <p class="label-score">Score: <span class="score">20</span></p>
+          <p class="label-highscore">
+            Highscore: <span class="highscore">0</span>
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
